@@ -1,0 +1,47 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.krypton.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ClientConnectionMixin",
+    "EndCrystalItemMixin",
+    "ItemStackMixin",
+    "LivingEntityAccessor",
+    "WorldAccessor",
+    "EntityMixin"
+  ],
+  "client": [
+    "BufferRendererAccessor",
+    "CameraMixin",
+    "ClientPlayerEntityMixin",
+    "ClientPlayerInteractionManagerAccessor",
+    "ClientPlayerInteractionManagerMixin",
+    "FrustumAccessor",
+    "GameRendererMixin",
+    "HandledScreenMixin",
+    "InGameHudMixin",
+    "KeyBindingAccessor",
+    "KeyBindingMixin",
+    "KeyboardMixin",
+    "MinecraftClientAccessor",
+    "MinecraftClientMixin",
+    "MouseHandlerAccessor",
+    "MouseMixin",
+    "OtherClientPlayerEntityAccessor",
+    "ScreenMixin",
+    "ShaderProgramAccessor",
+    "WorldRendererAccessor",
+    "EntityRenderDispatcherMixin",
+    "CountPlacementModifierAccessor",
+    "HeightRangePlacementModifierAccessor",
+    "RarityFilterPlacementModifierAccessor",
+    "HeightContextMixin",
+    "ClientPlayNetworkHandlerMixin",
+    "WorldChunkMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "krypton-refmap.json"
+}
